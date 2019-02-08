@@ -11,7 +11,7 @@ using namespace std;
 //method to multiply two integers using logorithm
 int multiplyWithLogorithm(int x, int y)
 {
-    return (x<0 || y<0) ? -exp(log(abs(x))+log(abs(y)) : exp(log(x)+log(y));
+    return (x<0 || y<0) ? -exp(log(abs(x))+log(abs(y))) : exp(log(x)+log(y));
 }
 
 
